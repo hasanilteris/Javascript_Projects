@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <title>To do App</title>
+</head>
+<body>
+    <div class="container">
+         <header class="text-center text-light my-4">
+         <h1 class="mb-4">To do App</h1>
+         <form class="search">
+             <input class="form-control" type="text" name="search" placeholder="Ara...">
+         </form>
+        </header>
+
+        <ul class="list-group text-light todos">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Yüzmeye Git</span>
+                <i class="fas fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Manavdan Limon Al</span>
+                <i class="fas fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Javascript Çalış</span>
+                <i class="fas fa-trash-alt delete"></i>
+            </li>
+        </ul>
+
+        <form class="text-center my-4 add">
+            <label class="text-light">Yeni İş Ekle</label>
+            <input class="form-control m-auto" type="text" name="add">
+        </form>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/8519ddb115.js" crossorigin="anonymous"></script>
+    <script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Korona Çalışma Anketi</title>
+</head>
+<body>
+<section id="header">
+    <div class="bg-white text-center py-4">
+        <div class="container">
+            <h2 class="text-danger display-4 my-4">Evden Çalışma Anketi</h2>
+        </div>
+    </div>
+</section>
+<div class="result d-none py-4 bg-white text-center">
+     <div class="container lead">
+         <p><span class="text-danger display-4 p-3">0%</span>Ofise Dönmek İstiyorsun</p>
+    </div>
+</div>
+<section id="questions">
+<div class="bg-secondary py-3">
+    <div class="container">
+         <form class="question-form text-white">
+             <div class="my-4">
+                 <p>1. Ofiste daha verimli çalıştığımı düşünüyorum.</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1"  value="E" checked>
+                    <label class="form-check-label" >
+                      Evet
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1"  value="H">
+                    <label class="form-check-label" >
+                      Hayır
+                    </label>
+                  </div>
+             </div>
+             <div class="my-4">
+                <p>1. Ofiste çalışmak ve ulaşım beni yormuyor.</p>
+               <div class="form-check">
+                   <input class="form-check-input" type="radio" name="q2"  value="E" checked>
+                   <label class="form-check-label" >
+                     Evet
+                   </label>
+                 </div>
+                 <div class="form-check">
+                   <input class="form-check-input" type="radio" name="q2"  value="H">
+                   <label class="form-check-label" >
+                     Hayır
+                   </label>
+                 </div>
+            </div>
+            <div class="my-4">
+                <p>1. Ofiste daha iyi iletişim kuruyor ve problemleri daha rahat çözüyorum.</p>
+               <div class="form-check">
+                   <input class="form-check-input" type="radio" name="q3"  value="E" checked>
+                   <label class="form-check-label" >
+                     Evet
+                   </label>
+                 </div>
+                 <div class="form-check">
+                   <input class="form-check-input" type="radio" name="q3"  value="H">
+                   <label class="form-check-label" >
+                     Hayır
+                   </label>
+                 </div>
+            </div>
+            <div class="my-4">
+                <p>1. Ofis ortamı benim için oldukça rahat.</p>
+               <div class="form-check">
+                   <input class="form-check-input" type="radio" name="q4"  value="E" checked>
+                   <label class="form-check-label" >
+                     Evet
+                   </label>
+                 </div>
+                 <div class="form-check">
+                   <input class="form-check-input" type="radio" name="q4"  value="H">
+                   <label class="form-check-label" >
+                     Hayır
+                   </label>
+                 </div>
+            </div>
+            <div class="text-center">
+                <input type="submit" class="btn btn-light">
+            </div>
+            
+         </form>
+    </div>
+</div>
+</section>
+
+    <script src="korona.js"></script>
+</body>
+</html>
