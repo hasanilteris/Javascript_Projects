@@ -129,8 +129,6 @@ const ProductController = (function () {
     }
 
 })();
-
-
 const UIController = (function () {
 
     const Selectors = {
@@ -247,8 +245,6 @@ const UIController = (function () {
         }
     }
 })();
-
-
 
 const App = (function (ProductCtrl, UICtrl, StorageCtrl) {
 
@@ -415,4 +411,3 @@ const App = (function (ProductCtrl, UICtrl, StorageCtrl) {
 })(ProductController, UIController, StorageController);
 
 App.init();
-
