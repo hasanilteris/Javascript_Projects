@@ -7,7 +7,6 @@ let operator = null;
 let waitingForSecondValue = false;
 
 updateDisplay();
-
 function updateDisplay() {
     display.value = displayValue;
 }
@@ -37,7 +36,6 @@ keys.addEventListener('click', function(e) {
     }
     updateDisplay();
 });
-
 function handleOperator(nextOperator) {
     const value = parseFloat(displayValue);
 
