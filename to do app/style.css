@@ -3,6 +3,7 @@ body{
 }
 ::placeholder {
     color: #fff  !important;
+    
 }
 .container{
     max-width: 400px;
