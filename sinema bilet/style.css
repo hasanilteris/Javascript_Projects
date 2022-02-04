@@ -19,7 +19,6 @@ body {
 .seat.selected {
     background-color: #f6eb6f;
 }
-
 .seat.reserved {
     background-color: #fff;
 }
