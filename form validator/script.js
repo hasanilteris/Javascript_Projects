@@ -10,7 +10,6 @@ function error(input, message) {
     div.innerText = message;
     div.className = 'invalid-feedback';
 }
-
 function success(input) {
     input.className = 'form-control is-valid';
 }
