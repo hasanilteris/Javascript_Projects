@@ -3,7 +3,6 @@ function Question(text,choices,answer){
     this.choices = choices;
     this.answer = answer;
 }
-
 // Question prototype
 Question.prototype.checkAnswer = function(answer){
     return this.answer === answer;
