@@ -14,7 +14,6 @@ function updateDisplay() {
 keys.addEventListener('click', function(e) {
     const element = e.target;
     const value = element.value;
-
     if (!element.matches('button')) return;
 
     switch(value) {
