@@ -352,7 +352,6 @@ const App = (function (ProductCtrl, UICtrl, StorageCtrl) {
 
         e.preventDefault();
     }
-
     const deleteProductSubmit = function (e) {
 
        
