@@ -1,5 +1,4 @@
 // Elementleri Seçme
-
 const githubForm = document.getElementById("github-form");
 const nameInput = document.getElementById("githubname");
 const clearLastUsers = document.getElementById("clear-last-users");
