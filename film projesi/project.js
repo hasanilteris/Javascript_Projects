@@ -5,8 +5,6 @@ const urlElement = document.querySelector("#url");
 const cardbody = document.querySelectorAll(".card-body")[1];
 const clear = document.getElementById("clear-films");
 
-
-
 eventListeners();
 
 function eventListeners(){
