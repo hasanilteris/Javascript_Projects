@@ -6,6 +6,7 @@ class Storage {
         films.push(newFilm);
         localStorage.setItem("films",JSON.stringify(films));
 
+        
     }
     static getFilmsFromStorage(){
         let films;
