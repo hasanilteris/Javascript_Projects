@@ -2,7 +2,6 @@ class UI {
 
     static addFilmToUI(newFilm){
         
-     
        const filmList = document.getElementById("films");
      
        filmList.innerHTML += `
