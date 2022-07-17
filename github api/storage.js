@@ -4,7 +4,6 @@ class Storage {
         // Tüm kullanıcı al
 
         let users;
-
         if (localStorage.getItem("searched") === null) {
             users = [];
         }
