@@ -6,6 +6,7 @@ const lastUsers = document.getElementById("last-users");
 const github = new Github();
 const ui = new UI();
 
+
 eventListeners();
 
 function eventListeners(){
