@@ -13,7 +13,6 @@ form.addEventListener('submit',e=>{
              score +=25;
          }  
     })
-
     result.classList.remove('d-none');
     let puan=0;
    const bastırma= setInterval(() => {
@@ -27,5 +26,4 @@ form.addEventListener('submit',e=>{
        puan++; 
     }
      }, 10);
-
 })
