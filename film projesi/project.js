@@ -7,6 +7,7 @@ const clear = document.getElementById("clear-films");
 
 eventListeners();
 
+
 function eventListeners(){
     form.addEventListener("submit",addFilm);
     document.addEventListener("DOMContentLoaded",function(){
