@@ -1,5 +1,4 @@
 class Storage {
-
     static getSearchedUsersFromStorage(){
         // Tüm kullanıcı al
 
