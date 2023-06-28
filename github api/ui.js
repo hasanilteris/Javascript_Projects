@@ -1,5 +1,4 @@
 class UI {
-    
     constructor(){
         this.profileDiv = document.getElementById("profile");
         this.repoDiv = document.getElementById("repos");
