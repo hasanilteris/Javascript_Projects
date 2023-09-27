@@ -1,6 +1,4 @@
-## -Html5
-## -Css3
-## -Javascript
+
 
 ### Adam Asmaca : You can view the site [**here.**](https://raw.githack.com/hasanilteris/Kursprojeleri/main/adam%20asmaca/index.html)
 
