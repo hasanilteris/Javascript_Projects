@@ -13,7 +13,6 @@ const getResult = (cityName) => {
     })
     .then(displayResult)
 }
-
 const displayResult = (result) => {
     let city = document.querySelector('.city')
     city.innerText = `${result.name},${result.sys.country}`
