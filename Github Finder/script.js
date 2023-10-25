@@ -10,7 +10,6 @@ async function getUser(username) {
     const respData = await resp.json();
 
     createUserCard(respData);
-
     getRepos(username);
 }
 async function getRepos(username) {
