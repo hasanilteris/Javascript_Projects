@@ -2,20 +2,17 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     background-color: #22254b;
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
-
 header {
     background-color: #373b69;
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
 }
-
 .search {
     background-color: transparent;
     border: 2px solid #22254b;
