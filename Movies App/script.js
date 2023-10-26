@@ -18,7 +18,6 @@ async function getMovies(url) {
 
     showMovies(respData.results);
 }
-
 function showMovies(movies) {
     // clear main
     main.innerHTML = "";
@@ -49,7 +48,6 @@ function showMovies(movies) {
         main.appendChild(movieEl);
     });
 }
-
 function getClassByRate(vote) {
     if (vote >= 8) {
         return "green";
