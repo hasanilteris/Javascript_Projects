@@ -4,7 +4,6 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const repassword = document.getElementById('repassword');
 
-
 function error(input, message) {
     input.className = 'form-control is-invalid';
     const div = input.nextElementSibling;
