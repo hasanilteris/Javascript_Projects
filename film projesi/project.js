@@ -7,13 +7,11 @@ const clear = document.getElementById("clear-films");
 
 eventListeners();
 
-
 function eventListeners(){
     form.addEventListener("submit",addFilm);
     document.addEventListener("DOMContentLoaded",function(){
         let films = Storage.getFilmsFromStorage();
         UI.loadAllFilms(films);
-
     });
 
     cardbody.addEventListener("click",deleteFilm);
