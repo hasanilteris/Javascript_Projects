@@ -5,8 +5,6 @@ const wrongLetters_el = document.getElementById('wrong-letters');
 const items = document.querySelectorAll('.item');
 const message = document.getElementById('message');
 const PlayAgainBtn = document.getElementById('play-again');
-
-
 const correctLetters = [];
 const wrongLetters = [];
 let selectedWord = getRandomWord();
