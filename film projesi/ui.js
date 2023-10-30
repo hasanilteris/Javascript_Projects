@@ -11,9 +11,7 @@ class UI {
                  <td>${newFilm.director}</td>
                  <td><a href="#" id = "delete-film" class = "btn btn-danger">Filmi Sil</a></td>
              </tr>
-       `;
-     
-     
+       `;    
      }
      static clearInputs(element1,element2,element3){
          element1.value = "";
