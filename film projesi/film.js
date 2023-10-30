@@ -3,7 +3,6 @@ class Film {
         this.title = title;
         this.director = director;
         this.url = url;
-    }
-    
+    }    
 }
 
