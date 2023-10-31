@@ -17,7 +17,6 @@ container.addEventListener('click', function(e) {
 select.addEventListener('change', function(e) {
     calculateTotal();  
 });
-
 function calculateTotal() {
     const selectedSeats = container.querySelectorAll('.seat.selected');
 
