@@ -7,6 +7,7 @@ body{
 .container{
     max-width: 400px;
 }
+
 input[type=text],
 input[type=text]:focus{
     color: #fff;
