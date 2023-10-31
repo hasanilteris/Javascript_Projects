@@ -18,6 +18,7 @@ addForm.addEventListener('submit',e=>{
         addForm.reset();
     }
 })
+
 list.addEventListener('click',e=>{
     if(e.target.classList.contains('delete'))
     {
