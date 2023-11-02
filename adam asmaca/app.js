@@ -9,6 +9,8 @@ const correctLetters = [];
 const wrongLetters = [];
 let selectedWord = getRandomWord();
 
+
+
 function getRandomWord() {
     const words = ["react","java","python","css","html","vue","angular"];
     return words[Math.floor(Math.random() * words.length)];
