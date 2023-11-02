@@ -26,7 +26,6 @@ body {
 .item {
     display: none;
 }
-
 #wrong-letters {
     position: absolute;
     top: 30px;
