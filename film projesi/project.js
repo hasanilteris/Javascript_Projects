@@ -6,7 +6,6 @@ const cardbody = document.querySelectorAll(".card-body")[1];
 const clear = document.getElementById("clear-films");
 
 eventListeners();
-
 function eventListeners(){
     form.addEventListener("submit",addFilm);
     document.addEventListener("DOMContentLoaded",function(){
