@@ -17,6 +17,7 @@ addForm.addEventListener('submit',e=>{
         generateTemplate(todo)
         addForm.reset();
     }
+    
 })
 
 list.addEventListener('click',e=>{
