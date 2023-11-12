@@ -6,7 +6,6 @@ const drawRect = (x,y,w,h,color) => {
     ctx.fillStyle = color
     ctx.fillRect(x,y,w,h)
 }
-
 const drawCircleF = (x,y,r,color) =>{
     ctx.fillStyle = color
     ctx.beginPath()
