@@ -10,7 +10,6 @@ function startGame() {
 
     blocks.forEach(block => block.addEventListener("click", () => chooseArea(block)))
 }
-
 function chooseArea(block) {
     if (block.textContent === "") {
         block.textContent = player;
