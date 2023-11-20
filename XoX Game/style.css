@@ -16,9 +16,11 @@ body {
 h1 {
     font-size: 4rem;
 }
+
 h1,h2 {
     margin-bottom: 5rem;
 }
+
 .game-container {
     width: 30rem;
     height: 30rem;
