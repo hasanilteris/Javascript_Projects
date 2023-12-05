@@ -8,10 +8,12 @@ function CalculateBMI(){
         document.getElementById('result-statu').style.color= '#2196f3';
         document.getElementById('result-statu').innerText='Under Weight';
     }
+        
     else if( result>= 18.5 && result<25){
        document.getElementById('result-statu').style.color='#43a047'; 
        document.getElementById('result-statu').innerText='Normal';
     } 
+        
     else if( result>= 25 && result<30){
         document.getElementById('result-statu').style.color='#fb8c00'; 
         document.getElementById('result-statu').innerText='Over Weight';
