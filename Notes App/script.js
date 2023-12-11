@@ -6,6 +6,7 @@ if (notes) {
         addNewNote(note);
     });
 }
+
 addBtn.addEventListener("click", () => {
     addNewNote();
 });
