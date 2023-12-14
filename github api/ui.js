@@ -8,7 +8,6 @@ class UI {
     }
     clearInput(){
         this.inputField.value = "";
-
     }
     showUserInfo(user){
         this.profileDiv.innerHTML = `
