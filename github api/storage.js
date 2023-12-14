@@ -8,10 +8,8 @@ class Storage {
         }
         else {
             users = JSON.parse(localStorage.getItem("searched"));
-
         }
         return users;
-
     }
     static addSearchedUserToStorage(username){
         // Kullanıcı Ekle
