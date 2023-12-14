@@ -8,8 +8,6 @@ const ui = new UI();
 
 eventListeners();
 
-
-
 function eventListeners(){
     githubForm.addEventListener("submit",getData);
     clearLastUsers.addEventListener("click",clearAllSearched);
