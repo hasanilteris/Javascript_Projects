@@ -7,8 +7,6 @@ class Github {
         const responseRepo = await fetch(this.url + username + "/repos");
         const userData = await responseUser.json();
         const repoData = await responseRepo.json();
-
-
         return {
             user:userData,
             repo:repoData
