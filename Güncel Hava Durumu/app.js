@@ -10,7 +10,6 @@ const getResult = (cityName) => {
     .then(weather => {
         return weather.json()
     })
-        
     .then(displayResult)
 }
 const displayResult = (result) => {
