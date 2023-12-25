@@ -22,7 +22,6 @@ header {
     font-size: 1rem;
     padding: 0.5rem 1rem;
 }
-
 .search::placeholder {
     color: #7378c5;
 }
